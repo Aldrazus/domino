@@ -1,0 +1,4 @@
+BasedOnStyle: Google
+IncludeBlocks: Merge
+SortIncludes: true
+FixNamespaceComments: false
