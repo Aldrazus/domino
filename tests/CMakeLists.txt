@@ -16,7 +16,7 @@ add_executable(${TEST_EXE_NAME})
 target_sources(
     ${TEST_EXE_NAME}
     PRIVATE 
-    domino_test.cpp
+    domino.cpp
 )
 target_include_directories(${TEST_EXE_NAME} PRIVATE .)
 target_link_libraries(
