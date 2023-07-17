@@ -1,10 +1,10 @@
 # Domino
 
 ## Building the Library
-Requires the [Ninja build system](https://ninja-build.org/).
+Requires [CMake](https://cmake.org/).
 Note: This will also build the test executable
 ```sh
-cmake -G "Ninja" -S . -B build
+cmake -S . -B build
 cmake --build build
 ```
 
